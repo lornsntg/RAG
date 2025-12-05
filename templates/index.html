@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <title>Chatbot RAG Gemini</title>
+  </head>
+  <body>
+    <h1>Chatbot RAG Gemini</h1>
+    <form method="post">
+      <input type="text" name="query" placeholder="Scrivi la tua domanda..." style="width:300px">
+      <input type="submit" value="Invia">
+    </form>
+    <p><strong>Risultati trovati:</strong><br>{{ results|safe }}</p>
+    <p><strong>Risposta:</strong><br>{{ response }}</p>
+  </body>
+</html>
